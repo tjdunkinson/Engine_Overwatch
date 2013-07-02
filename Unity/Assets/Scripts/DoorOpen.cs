@@ -4,15 +4,12 @@ using System.Collections;
 public class DoorOpen : MonoBehaviour {
 	
 	private Animation DoorAnim;
-	private AnimationState DoorState;
-	private bool open;
+	private bool open = false;
 
 	// Use this for initialization
 	void Start () {
 		
 	DoorAnim = GetComponent<Animation>();
-	//DoorState = DoorAnim.GetComponent<AnimationState>();
-	
 	
 	}
 	
